@@ -13,6 +13,7 @@
   <modules>
     <module>gateway</module>
     <module>discovery</module>
+      <module>student</module>
   </modules>
 
   <properties>
