@@ -14,6 +14,7 @@
     <module>gateway</module>
     <module>discovery</module>
       <module>student</module>
+      <module>school</module>
   </modules>
 
   <properties>
