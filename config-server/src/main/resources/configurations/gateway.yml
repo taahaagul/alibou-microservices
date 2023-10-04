@@ -11,6 +11,11 @@ server:
 spring:
   application:
     name: gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/spring-boot-microservices-realm
   cloud:
     gateway:
       discovery:

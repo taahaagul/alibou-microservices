@@ -4,6 +4,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
 
 server:
   port: 8070
@@ -24,7 +27,7 @@ spring:
 
 application:
   config:
-    students-url: http://localhost:8222/api/v1/students
+    students-url: http://localhost:8090/api/v1/students
 
 management:
   tracing:
